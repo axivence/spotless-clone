@@ -1,4 +1,4 @@
-import { Phone, Mail, Globe, MapPin, Linkedin, Facebook, Instagram, Twitter } from "lucide-react";
+import { Phone, Mail, Globe, MapPin, Facebook, Instagram, Youtube, MessageCircle } from "lucide-react";
 
 const contactInfo = [
   {
@@ -22,16 +22,16 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Headquarters",
-    value: "Aluva, Kochi, Kerala",
+    value: "NH, Aluva, Kochi, Kerala",
     href: "https://goo.gl/maps/Hq6wTUDVSNfavN9z8"
   }
 ];
 
 const socialLinks = [
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Twitter, href: "#", label: "Twitter" }
+  { icon: Facebook, href: "https://www.facebook.com/santos.tra", label: "Facebook" },
+  { icon: Instagram, href: "https://www.instagram.com/santos.travel.india/", label: "Instagram" },
+  { icon: Youtube, href: "https://www.youtube.com/channel/UCr23sqfiJiXIs3z6Bw-H9cQ", label: "Youtube" },
+  { icon: MessageCircle, href: "https://whatsapp.com/channel/0029Vb71GteG3R3dVlh7BP0O", label: "WhatsApp" }
 ];
 
 const ContactSection = () => {
@@ -76,6 +76,8 @@ const ContactSection = () => {
               <a
                 key={index}
                 href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={social.label}
                 className="social-icon"
               >

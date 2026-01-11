@@ -18,7 +18,7 @@ const HeroSection = () => {
         {/* Badge */}
         <div className="mb-8 animate-fade-in" style={{ animationDelay: "0.1s" }}>
           <span className="badge-primary">
-            SANTS TRAVEL • KOCHI, KERALA
+            SANTOS.TRAVEL • KOCHI, KERALA
           </span>
         </div>
 
@@ -48,10 +48,10 @@ const HeroSection = () => {
 
         {/* Subtitle */}
         <p 
-          className="text-primary text-xl md:text-2xl font-medium mb-4 animate-fade-in"
+          className="text-primary text-xl md:text-2xl font-medium mb-4 animate-fade-in lowercase"
           style={{ animationDelay: "0.5s" }}
         >
-          Managing Director, SANTOS.TRAVELS
+          <span className="capitalize">Managing Director,</span> santos.travel
         </p>
 
         {/* Credentials */}

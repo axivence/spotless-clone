@@ -1,6 +1,6 @@
 const achievements = [
   {
-    number: "15+",
+    number: "17+",
     title: "Years of Excellence",
     description: "Pioneering experiential tourism from Kochi, Kerala"
   },
@@ -10,12 +10,12 @@ const achievements = [
     description: "Creating memorable adventures across Kerala & India"
   },
   {
-    number: "5+",
+    number: "9+",
     title: "Major Events",
-    description: "Swimathon, Duskathon & Tour de Kerala organizer"
+    description: "Swimathon, Duskathon, Paddlers Meetup & Tour de Kerala organizer"
   },
   {
-    number: "4",
+    number: "7",
     title: "Accreditations",
     description: "IATO, ATOAI, PATA & Govt. of India recognized"
   }

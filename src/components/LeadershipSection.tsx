@@ -4,19 +4,19 @@ const positions = [
   {
     icon: Briefcase,
     role: "Managing Director",
-    company: "Santos King Tours & Travels",
+    company: "santos.travel",
     description: "Leading a Government of India recognized tour company specializing in experiential Kerala tourism."
   },
   {
     icon: Mountain,
     role: "Adventure Tourism Pioneer",
     company: "Cycling, Kayaking & Trekking",
-    description: "Pioneering adventure experiences including Kochi cycling tours, backwater kayaking, and Himalayan treks."
+    description: "Pioneering adventure experiences across South India, including cycling tours, kayaking expeditions, treks & wilderness camps."
   },
   {
     icon: Trophy,
     role: "Event Organizer",
-    company: "Kochi Swimathon & Duskathon",
+    company: "Kochi Swimathon & Duskathon, Tour de Kerala",
     description: "Organizing major sporting events that bring together adventure enthusiasts and promote active lifestyles."
   }
 ];
